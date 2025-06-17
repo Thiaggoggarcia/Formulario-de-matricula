@@ -1,0 +1,40 @@
+:root{
+/* Brand */
+--color-brand-light:#F67841;
+--color-brand-mid:#F3541C;
+--color-brand-dark:#E43A12;
+
+/* Text */
+
+--color-text-primary:#292524;
+--color-text-secondary:#57534E;
+--color-text-tertiary:#8F8881;
+--color-text-highlight:#E43A12;
+
+/* Surface */
+--color-surface-primary:#FFFFFF;
+--color-surface-secondary:#FEE7D6;
+--color-surface-disabled:#E7E5E4;
+
+/* Stroke */
+--color-stroke-default:#D6D3D1;
+--color-stroke-highlight:#F3541C;
+
+/* Semantic */
+--color-error:#DC2626;
+
+/* Supporting */
+--color-orange:#F9A474;
+--color-yellow:#FEDF6F;
+--color-green:#C7D78D;
+--color-blue:#B8CEDC;
+--color-violet:#C3B2E7;
+--color-pink:#F682A5;
+
+/* Fonts */
+--poppins:"Poppins", sans-serif;
+--h1-32: bold 32px/120% var(--poppins);
+--h2-24: bold 24px/120% var(--poppins);
+--h3-20: bold 20px/120% var(--poppins);
+--h4-16: bold 16px/120% var(--poppins);
+}
