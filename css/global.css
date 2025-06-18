@@ -1,8 +1,9 @@
 :root{
 /* Brand */
---color-brand-light:#F67841;
---color-brand-mid:#F3541C;
---color-brand-dark:#E43A12;
+/* --bg-color-light:#F67841; */
+--bg-color-light:#FEE7D6;
+/* --color-brand-mid:#F3541C;
+--color-brand-dark:#E43A12; */
 
 /* Text */
 
@@ -33,8 +34,14 @@
 
 /* Fonts */
 --poppins:"Poppins", sans-serif;
---h1-32: bold 32px/120% var(--poppins);
+--h1-40: 700 40px/125% var(--poppins);
 --h2-24: bold 24px/120% var(--poppins);
 --h3-20: bold 20px/120% var(--poppins);
---h4-16: bold 16px/120% var(--poppins);
+--h4-16: 400 16px/150% var(--poppins);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

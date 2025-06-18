@@ -1,0 +1,17 @@
+#fixed{
+  height: 100%;
+  width: 640px;
+  position: fixed;
+  padding: 64px;
+  top: 0;
+  right: 100px;
+
+}
+
+#form{
+  height: 2000px;
+  width: 640px;
+  position: relative;
+  padding: 64px;
+
+}
