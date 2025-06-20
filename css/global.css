@@ -24,24 +24,39 @@
 /* Semantic */
 --color-error:#DC2626;
 
-/* Supporting */
+/* Supporting
 --color-orange:#F9A474;
 --color-yellow:#FEDF6F;
 --color-green:#C7D78D;
 --color-blue:#B8CEDC;
 --color-violet:#C3B2E7;
---color-pink:#F682A5;
+--color-pink:#F682A5; */
 
 /* Fonts */
 --poppins:"Poppins", sans-serif;
---h1-40: 700 40px/125% var(--poppins);
---h2-24: bold 24px/120% var(--poppins);
---h3-20: bold 20px/120% var(--poppins);
---h4-16: 400 16px/150% var(--poppins);
+--h1-40: 600 2.5rem/1.25 var(--poppins);
+--h2-24: 600 1.5rem/1.25 var(--poppins);
+--h3-20: bold 1.25rem/1.20 var(--poppins);
+--h4-16: 600 1rem/1.25 var(--poppins);
+--text-16: 400 1rem/1.5 var(--poppins);
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  max-width: 1280px;
+  margin-inline: auto;
+  grid-template-columns: 51.25% 48.75%;
+  overflow: hidden;
 }

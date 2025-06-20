@@ -1,46 +1,43 @@
-.container{
-  width: 1280px;
-  
-  position: relative;
- 
-}
 /* Display */
 .grid{
   display: grid;
 }
-
-.grid-col-2{
-  grid-template-columns: 1fr 1fr;
-}
-
-/* position */
-.relative{
-  position: relative;
-}
-.fixed{
-  position: fixed;
+.flex{
+  display: flex;
 }
 
 /* Spacing */
 .pd-block-8{
-  padding-block: 8px;
+  padding-block: 0.5rem;
 }
 .pd-top-32{
-  padding-top: 32px;
+  padding-top: 2rem;
+}
+.pd-top-24{
+  padding-top: 1.5rem;
+}
+.pd-top-8{
+  padding-top: 0.5rem;
+}
+.gap-8{
+  gap: 0.5rem;
 }
 
 /* Fonts */
-.h1{
+.font-h1{
   font: var(--h1-40);
 }
-.h2{
+.font-h2{
   font: var(--h2-24);
 }
-.h3{
+.font-h3{
   font: var(--h3-20);
 }
-.h4{
+.font-h4{
   font: var(--h4-16);
+}
+.font-text{
+  font: var(--text-16);
 }
 
 /* colors background */

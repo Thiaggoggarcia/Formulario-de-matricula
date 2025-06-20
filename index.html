@@ -10,13 +10,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <section id="form"></section>
-    <section id="fixed" class=" bg-color-light fixe">
+  <main class="grid">
+    <section id="form">
+      <a href="#" class="flex gap-8">
+        <img src="./assets/icons/arrow-left-02.svg" alt="Icone de seta para a esquerda">
+        <span class="font-text color-text-tertiary ">Voltar</span>
+      </a>
+      <header class="pd-top-24">
+        <h2 class="font-h2 color-text-primary">Formulário de matrícula</h2>
+        <p class="font-text color-text-secondary pd-top-8">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+      </header>
+      <form action="#" method="post">
+        <fieldset>
+          <legend class="font-h4 color-text-primary">Informações da criança</legend>
+
+          <label for="name">Nome Completo</label>
+          <input id="name" name="nome" type="text" required>
+
+          <label for="date">Data de nascimento</label>
+          <input type="date" name="date" id="date" required>
+
+          <label for="sex">Sexo</label>
+          <select name="Sex" id="sex">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">outro</option>
+          </select>
+
+          <label for="inf-med">Informações médicas</label>
+          <textarea name="inf-med" id="inf-med"></textarea>
+
+          <label for="birth-cert">Certidão de nascimento</label>
+          <input type="file" name="birth-cert" id="birth-cert">
+        </fieldset>
+
+        <fieldset>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.
+        </fieldset>
+        <button type="submit">enviar</button>
+      </form>
+    </section>
+    <section id="fixed" class=" bg-color-light">
       <header>
         <img src="./assets/images/logo.svg" alt="Logo marca da escola Estrelas do Amanhã">
-        <h1 class="h1 color-text-primary pd-block-8">Porque cada momento de <span class="color-text-highlight">aprendizado</span> conta</h1>
-        <p class="h4 color-text-secondary">Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+        <h1 class="font-h1 color-text-primary pd-block-8">Porque cada momento de <span class="color-text-highlight">aprendizado</span> conta</h1>
+        <p class="font-text color-text-secondary">Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
       </header>
       <img class="pd-top-32" src="./assets/images/Illustration.svg" alt="Ilustração de uma professora em sala de aula sentada no chão, realizando uma atividade de desenho com seus alunos.">
     </section>
