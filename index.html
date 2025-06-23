@@ -20,7 +20,7 @@
         <h2 class="font-h2 color-text-primary">Formulário de matrícula</h2>
         <p class="font-text color-text-secondary pd-top-8">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
       </header>
-      <form action="#" method="post">
+      <form id="main-form" action="#" method="post">
         <fieldset>
           <legend class="font-h4 color-text-primary">Informações da criança</legend>
 
@@ -45,7 +45,36 @@
         </fieldset>
 
         <fieldset>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae aspernatur aliquid praesentium labore doloribus, cum perspiciatis officiis eos, quae exercitationem delectus aut, sed deleniti ipsam quam natus tempore reiciendis.
+          <legend>Endereço residencial</legend>
+
+          <label for="cep">CEP</label>
+          <input type="number" name="cep" id="cep">
+
+          <label for="road">Rua</label>
+          <input type="text" name="road" id="road" disabled>
+
+          <label for="number">Número</label>
+          <input type="number" name="number" id="number">
+
+          <label for="city">Cidade</label>
+          <input type="text" name="city" id="city" disabled>
+
+          <label for="state">Estado</label>
+          <input type="text" name="state" id="state" disabled>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informações do responsável</legend>
+
+          <label for="name-respons">Nome do responsável</label>
+          <input type="text" name="name-respons" id="name-respons">
+          <p>Principal responsável legal e contato de emergência</p>
+
+          <label for="phone">Telefone</label>
+          <input type="number" name="phone" id="phone">
+
+          <label for="mail">E-mail</label>
+          <input type="mail" name="mail" id="mail">
         </fieldset>
         <button type="submit">enviar</button>
       </form>
