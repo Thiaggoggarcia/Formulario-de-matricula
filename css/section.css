@@ -1,11 +1,10 @@
 #fixed{
-  height: 100vh;
+  height: 100%;
   padding: 4rem;
 
 }
 
 #form{
-  height: 2000px;
   padding: 4rem;
   overflow: scroll;
 

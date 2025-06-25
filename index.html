@@ -20,28 +20,39 @@
         <h2 class="font-h2 color-text-primary">Formulário de matrícula</h2>
         <p class="font-text color-text-secondary pd-top-8">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
       </header>
-      <form id="main-form" action="#" method="post">
+      <form id="main-form" enctype="multipart/form-data" method="post">
         <fieldset>
           <legend class="font-h4 color-text-primary">Informações da criança</legend>
+          <div class="input-wrapper">
+            <label class="font-label color-text-secondary" for="name">Nome Completo</label>
+            <input id="name" name="nome" type="text" required placeholder="Digite o nome da criança">
+          </div>
+          
+          <div class="input-wrapper">
+            <label for="date">Data de nascimento</label>
+            <input type="date" name="date" id="date" required lang="pt-br">
+          </div>
+          
+          <div class="select-wrapper">
+            <label for="gender">Sexo</label>
+            <select name="gender" id="gender">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">outro</option>
+            </select>
+          </div>
 
-          <label for="name">Nome Completo</label>
-          <input id="name" name="nome" type="text" required>
+          <div class="textarea-wrapper">
+            <label for="inf-med">Informações médicas</label>
+            <textarea name="inf-med" id="inf-med" cols="30" rows="10" placeholder="Insira as informações médicas da criança caso tenha"></textarea>
+          </div>
 
-          <label for="date">Data de nascimento</label>
-          <input type="date" name="date" id="date" required>
-
-          <label for="sex">Sexo</label>
-          <select name="Sex" id="sex">
-            <option value="masculino">Masculino</option>
-            <option value="feminino">Feminino</option>
-            <option value="outro">outro</option>
-          </select>
-
-          <label for="inf-med">Informações médicas</label>
-          <textarea name="inf-med" id="inf-med"></textarea>
-
-          <label for="birth-cert">Certidão de nascimento</label>
-          <input type="file" name="birth-cert" id="birth-cert">
+          <div class="file-wrapper">
+            <label for="birth-cert">Certidão de nascimento</label>
+            <input type="file" name="birth-cert" id="birth-cert">
+            <img src="./assets/icons/cloud-upload.svg" alt="Icone de envio de arquivo">
+            <p>Clique aqui para <br> para selecionar arquivos</p> 
+          </div>
         </fieldset>
 
         <fieldset>

@@ -39,6 +39,10 @@
 .font-text{
   font: var(--text-16);
 }
+.font-label{
+  font: var(--text-label);
+}
+
 
 /* colors background */
 
