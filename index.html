@@ -24,21 +24,21 @@
         <fieldset>
           <legend class="font-h4 color-text-primary">Informações da criança</legend>
           <div class="input-wrapper">
-            <label class="font-label color-text-secondary" for="name">Nome Completo</label>
+            <label for="name">Nome Completo</label>
             <input id="name" name="nome" type="text" required placeholder="Digite o nome da criança">
           </div>
           
           <div class="input-wrapper">
             <label for="date">Data de nascimento</label>
-            <input type="date" name="date" id="date" required lang="pt-br">
+            <input type="date" name="date" id="date" lang="pt-br" required>
           </div>
           
           <div class="select-wrapper">
             <label for="gender">Sexo</label>
-            <select name="gender" id="gender">
+            <select name="gender" id="gender" required >
               <option value="masculino">Masculino</option>
               <option value="feminino">Feminino</option>
-              <option value="outro">outro</option>
+              <option value="outro">Outro</option>
             </select>
           </div>
 
