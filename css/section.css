@@ -1,11 +1,11 @@
 #fixed{
-  height: 100%;
+  height: 100vh;
   padding: 4rem;
-
+  
 }
 
 #form{
   padding: 4rem;
-  overflow: scroll;
-
+  overflow: auto;
+  height: 100vh;
 } 
